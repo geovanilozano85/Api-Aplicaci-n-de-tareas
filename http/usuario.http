@@ -1,0 +1,33 @@
+###
+GET  http://localhost:3100/users/get-user/1
+
+###
+GET  http://localhost:3100/users/consult-users
+
+
+###
+POST  http://localhost:3000/users/save-user
+Content-Type: application/json
+
+{
+  "names": "Juan",
+  "email": "juan@gmail.com",
+  "password": "123456"
+}
+
+###
+
+PUT  http://localhost:3100/users/update-user
+Content-Type: application/json
+
+{
+  "id": 1,
+  "names": "Juan alberto",
+  "email": "juan@gmail.com",
+  "password": "123456"
+}
+
+###
+DELETE  http://localhost:3000/users/delete-user/1
+
+###

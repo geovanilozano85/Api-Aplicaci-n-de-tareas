@@ -1,0 +1,11 @@
+###
+GET  http://localhost:3100/folders/get-folders/1
+
+###
+POST  http://localhost:3100/folders/save-folder
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Test"
+}
